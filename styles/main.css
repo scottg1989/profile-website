@@ -1,0 +1,262 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #2e2e2e;
+}
+
+header {
+	height: 57px;
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+
+.header-inner {
+	width: 100%;
+	max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selected {
+	border-bottom: #0091ef 5px solid;
+}
+
+#tuck {
+	width: 100%;
+}
+
+main {
+	margin-top: 60px;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: 300;
+	display: inline-block;
+	margin: 8px 0 5px 20px;
+}
+
+nav {
+	float: right;
+	list-style: none;
+}
+
+nav ul {
+	padding: 0;
+	margin: 20px 20px 0 0;
+}
+
+nav li {
+	display: inline-block;
+    list-style-type: none;
+    margin: 0 7px;
+    padding: 0;
+}
+
+nav li button {
+	text-decoration: none;
+	color: inherit;
+	background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	padding: 0 0 7px 0;
+}
+
+nav li button:focus {
+	outline:0;
+}
+
+.internal-link:hover {
+	border-bottom: #0091ef 5px solid;
+}
+
+.external-link {
+	color: #2e2e2e;
+	font-size: 1.5em;
+}
+
+.external-link:hover {
+	color: #0091ef;
+}
+
+h1 > button {
+	text-decoration: none;
+	color: inherit;
+	background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+}
+
+h1 > button:focus {
+	outline:0;
+}
+
+.tagline {
+	font-size: 32px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 160px;
+}
+
+.tagline strong {
+	font-weight: 500;
+}
+
+.face-container {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.face {
+	border-radius: 50%;
+}
+
+section {
+	margin: 100px 0;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#background {
+	width: 80%;
+	max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills {
+	width: 80%;
+	max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills .text {
+	width:auto;
+	overflow:hidden;
+	padding-right: 20px;
+}
+
+#skills .aside {
+	width: 368px;
+    float:right;
+}
+
+#experience {
+	width: 90%;
+	max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company {
+	width: 33.33%;
+	float: left;
+	padding: 0 20px;
+}
+
+.company-image {
+	text-align: center;
+}
+
+h3 {
+	font-size: inherit;
+	font-weight: 600;
+}
+
+#projects {
+	width: 80%;
+	max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#money-manager {
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#money-manager .text {
+	width:auto;
+	overflow:hidden;
+	padding-left: 20px;
+}
+
+#money-manager .aside {
+	width: 177px;
+    float:left;
+}
+
+#money-manager {
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#money-manager .text {
+	width:auto;
+	overflow:hidden;
+	padding-left: 30px;
+}
+
+#money-manager .aside {
+	width: 177px;
+    float:left;
+}
+
+#planet-wars {
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#planet-wars .text {
+	width:auto;
+	overflow:hidden;
+	padding-right: 30px;
+}
+
+#planet-wars .aside {
+	width: 318px;
+    float:right;
+}

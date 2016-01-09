@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+  <title>Scott Gulliver</title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' />
+  <link rel="stylesheet" href="styles\font-awesome.min.css">
+  <link rel="stylesheet" href="styles\main.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1><button id="main-btn">Scott Gulliver</button></h1>
+      <nav>
+        <ul>
+          <li id="tab-background" class="internal-link"><button id="background-btn">Background</button></li>
+          <li id="tab-experience" class="internal-link"><button id="experience-btn">Experience</button></li>
+          <li id="tab-projects" class="internal-link"><button id="projects-btn">Projects</button></li>
+          <li><a href="https://github.com/scottg1989"><span class="fa fa-github external-link"></span></a></li>
+          <li><a href="http://stackoverflow.com/users/3067654"><span class="fa fa-stack-overflow external-link"></span></a></li>
+          <li><a href="https://twitter.com/ScottGulliver"><span class="fa fa-twitter external-link"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <img id="tuck" class="hidden" src="images/fade.png" />
+    </div>
+  </header>
+
+  <main>
+    <p class="tagline">Hi! I am a <strong>software developer</strong>, obsessed with<br /><strong>great design</strong>, and developing <strong>amazing solutions</strong>.</p>
+    <div class="face-container">
+      <img class="face" src="images\me.jpg" width="202" height="204" />
+    </div>
+    <section id="background">
+      <h2>Background</h2>
+      <p>A results-driven, articulate and analytical software engineer, with a passion for code. Strong in technical design, and problem solving skills. Experience working with multiple languages and technologies, a strong focus placed on quality code, and attention to detail. Throughout my professional roles, I have consistently exceeded expectations, delivering results throughout.</p>
+      <p>I am looking to find a challenging role which will allow application of my development skills, and which will provide opportunity to further develop my abilities. I thrive in environments which allow me to apply my skill set to new challenges, and which provide an opportunity to further my experience within the software development industry. My professional experience examples my ability to adapt to roles whilst bringing my own skills and knowledge to the position.</p>
+      <p>Self motivated, quick-learner, team-player, with a solid understanding of business principals, and the real world application of software. Able to develop and maintain great working relationships with both customers and colleagues, and have had experience working for a wide variety of applications.</p>
+    </section>
+    <section id="skills" class="cf">
+      <h2>Skills</h2>
+      <div>
+        <div class="aside">
+          <img src="images\skills.jpg" />
+        </div>
+        <div class="text">
+          <p>Experienced with web technologies. Have worked with a number of different languages such as C#, C++, JavaScript and Java. I consider myself as a full stack developer, I am as comfortable working with front-end code as I am developing back-end architecture.</p>
+          <p>For personal projects, I have developed for the Android platform using Java.</p>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="cf">
+      <h2>Experience</h2>
+      <div>
+        <div class="company">
+          <div class="company-image">
+            <img src="images\cc.jpg" alt="Coller Capital" />
+          </div>
+          <h3>Developer<br />April 2012 Onwards</h3>
+          <p>A core member of a small development team at Coller Capital, with the main development focus on an accounting package used by investors. I played a key part in a large project concerned with integrating a number of siloed systems, and providing a common data repository for these.</p>
+        </div>
+        <div class="company">
+          <div class="company-image">
+            <img src="images\mn.jpg" alt="Magnetic North" />
+          </div>
+          <h3>Junior Developer<br />May 2011 - April 2012</h3>
+          <p>At Magnetic North, I formed part of a development team which developed cloud-based contact centre solutions, including call recording, predictive dialling, and PCI compliance packages. Alongside developing & supporting the existing products, I also spearheaded a small team to develop a new product. This was a new venture for the company, and as such it was important that it was created quickly, to a high standard, and would stand up against competing software. We delivered this project on time, to budget, and to a high standard.</p>
+        </div>
+        <div class="company">
+          <div class="company-image">
+            <img src="images\pt.jpg" alt="Promtek Ltd." />
+          </div>
+          <h3>Process Control Engineer<br />July 2009 - May 2011</h3>
+          <p>As a software engineer at Promtek, I was tasked with process of creating control software for large industrial companies. I worked with a team of developers, and worked closely with all other areas of the company, including the service department. I was the first line of contact to customers, and was required to gather and develop change specifications , and also to provide full support when required.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="money-manager" class="cf">
+        <div class="aside">
+          <img src="images\moneyManager.jpg" />
+        </div>
+        <div class="text">
+          <h3>Money Manager - Android app</h3>
+          <p><a href="//play.google.com/store/apps/details?id=sg.money">https://play.google.com/store/apps/details?id=sg.money</a></p>
+          <p><em>"Simple yet comprehensive money management app. Use it to track daily expenses, see where your money is going, and get an overview of all of your accounts."</em></p>
+          <p>After looking for a simple and user-friendly money management app for my own use, I was unable to find one which I liked on the Google Play store. I decided to make an app that focused on being easy to use, and which allowed for quick entry of data. Since the first version was released, further features have been added in an effort to keep it competitive with other apps in the store.</p>
+        </div>
+      </div>
+      <div id="planet-wars" class="cf">
+        <div class="aside">
+          <img src="images\planetWars.jpg" />
+        </div>
+        <div class="text">
+          <h3>Planet Wars - Game</h3>
+          <p>Developed using C++ and DirectX, 'Planet Wars' is a game which allows the player to be immersed into the 3D world, which includes reaistic physics.</p>
+          <p>The player can select from a numebr of different levels, each of which can be completed by destroying the enemy. Gravity from the planets affects the missiles trajectory, forcing players the rethink the appraoch the take to this unique shooter.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="scripts\waypoints.min.js"></script>
+  <script src="scripts\main.js"></script>
+</body>
+</html>
