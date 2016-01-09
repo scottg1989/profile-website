@@ -67,16 +67,27 @@ header h1 {
 	margin: 8px 0 5px 20px;
 }
 
+#external-links {
+    float: right;
+}
+
 nav {
-	float: right;
+    margin-left: 2rem;
+}
+
+#external-links,
+nav {
+	display: inline-block;
 	list-style: none;
 }
 
+#external-links ul,
 nav ul {
 	padding: 0;
 	margin: 20px 20px 0 0;
 }
 
+#external-links li,
 nav li {
 	display: inline-block;
     list-style-type: none;
@@ -84,6 +95,7 @@ nav li {
     padding: 0;
 }
 
+#external-links li button,
 nav li button {
 	text-decoration: none;
 	color: inherit;
@@ -94,6 +106,7 @@ nav li button {
 	padding: 0 0 7px 0;
 }
 
+#external-links li button:focus,
 nav li button:focus {
 	outline:0;
 }
