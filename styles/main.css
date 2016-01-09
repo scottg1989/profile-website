@@ -96,7 +96,8 @@ nav li {
 }
 
 #external-links li button,
-nav li button {
+nav li button,
+nav li a {
 	text-decoration: none;
 	color: inherit;
 	background: none;
@@ -104,6 +105,7 @@ nav li button {
 	font: inherit;
 	cursor: pointer;
 	padding: 0 0 7px 0;
+    display: inline-block;
 }
 
 #external-links li button:focus,
